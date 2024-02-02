@@ -25,6 +25,12 @@ namespace Ghost
             InitializeComponent();
         }
 
+        public void FillData(string username, string password)
+        {
+            username_tb.Text = username;
+            password_tb.Password = password;
+        }
+
         private void openRegForm_Click(object sender, RoutedEventArgs e)
         {
             Registration window = new Registration();
@@ -60,11 +66,13 @@ namespace Ghost
 
                             if (storedHash == enteredHash)
                             {
-                                MessageBox.Show("Success");
+                                WelcomeForm window = new WelcomeForm();
+                                window.Show();
+                                this.Close();
                             }
                             else
                             {
-                                MessageBox.Show("Failed");
+                                message.Content = "Invalid data, please try again";
                             }
                         }
                     }

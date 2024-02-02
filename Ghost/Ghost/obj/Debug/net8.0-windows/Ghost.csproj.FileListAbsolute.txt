@@ -259,3 +259,5 @@ D:\GIT\lab3\Ghost\Ghost\obj\Debug\net8.0-windows\refint\Ghost.dll
 D:\GIT\lab3\Ghost\Ghost\obj\Debug\net8.0-windows\Ghost.pdb
 D:\GIT\lab3\Ghost\Ghost\obj\Debug\net8.0-windows\Ghost.genruntimeconfig.cache
 D:\GIT\lab3\Ghost\Ghost\obj\Debug\net8.0-windows\ref\Ghost.dll
+D:\GIT\lab3\Ghost\Ghost\obj\Debug\net8.0-windows\WelcomeForm.g.cs
+D:\GIT\lab3\Ghost\Ghost\obj\Debug\net8.0-windows\WelcomeForm.baml
