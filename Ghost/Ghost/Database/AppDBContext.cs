@@ -19,7 +19,7 @@ namespace Ghost.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=localhost; database=Ghost; Integrated Security=true; Encrypt=false;");
+            optionsBuilder.UseSqlServer("server=localhost; database=W; Integrated Security=true; Encrypt=false;");
             base.OnConfiguring(optionsBuilder);
         }
 

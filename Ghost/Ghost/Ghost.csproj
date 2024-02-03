@@ -2,14 +2,28 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <ApplicationIcon>ghost-solid.ico</ApplicationIcon>
+    <PackageIcon>ghost-solid.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="ghost-solid.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ghost-solid.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\tsymb\Downloads\ghost-solid.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

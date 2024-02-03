@@ -14,12 +14,12 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ghost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40cff1c634032c6dd4f315275ec3289f1b73ab04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+849f4a7bacca574f2c089b2d2f7b1b4f77a6f647")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ghost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ghost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows10.0.22621.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 
