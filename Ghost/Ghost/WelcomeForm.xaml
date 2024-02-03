@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ghost"
         mc:Ignorable="d"
-        Title="WelcomeForm" ResizeMode="CanMinimize" Height="450" Width="800">
+        Title="WelcomeForm" Icon="ghost-solid.png" ResizeMode="CanMinimize" Height="450" Width="800">
     <Grid>
         <Label Content="Welcome to Ghost app!" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Yu Gothic UI" FontSize="36" FontWeight="Bold"/>
 
