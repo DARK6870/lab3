@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="WelcomeForm" Icon="ghost-solid.png" ResizeMode="CanMinimize" Height="450" Width="800">
     <Grid>
-        <Label Content="Welcome to Ghost app!" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Yu Gothic UI" FontSize="36" FontWeight="Bold"/>
+        <Label x:Name="Welcome_label" Content="Welcome to Ghost app!" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Yu Gothic UI" FontSize="36" FontWeight="Bold"/>
 
     </Grid>
 </Window>

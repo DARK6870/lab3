@@ -66,7 +66,7 @@ namespace Ghost
 
                             if (storedHash == enteredHash)
                             {
-                                WelcomeForm window = new WelcomeForm();
+                                WelcomeForm window = new WelcomeForm(username);
                                 window.Show();
                                 this.Close();
                             }

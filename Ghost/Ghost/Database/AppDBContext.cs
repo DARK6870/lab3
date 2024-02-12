@@ -19,7 +19,7 @@ namespace Ghost.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=localhost; database=W; Integrated Security=true; Encrypt=false;");
+            optionsBuilder.UseSqlServer("Data Source=SQL8005.site4now.net;Initial Catalog=db_aa52ba_logins;User Id=db_aa52ba_logins_admin;Password=TestPass_1");
             base.OnConfiguring(optionsBuilder);
         }
 

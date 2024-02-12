@@ -88,9 +88,9 @@ namespace Ghost
                 }
 
                 
-                var validationContext = new ValidationContext(regUser, null, null);
-                var validationResults = new List<System.ComponentModel.DataAnnotations.ValidationResult>();
-                if (Validator.TryValidateObject(regUser, validationContext, validationResults, true))
+                var validationContext = new ValidationContext(regUser, null, null);//1
+                var validationResults = new List<System.ComponentModel.DataAnnotations.ValidationResult>();//2
+                if (Validator.TryValidateObject(regUser, validationContext, validationResults, true))//3
                 {
                     using (AppDBContext context = new AppDBContext())
                     {

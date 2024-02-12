@@ -19,9 +19,10 @@ namespace Ghost
     /// </summary>
     public partial class WelcomeForm : Window
     {
-        public WelcomeForm()
+        public WelcomeForm(string username)
         {
             InitializeComponent();
+            Welcome_label.Content = $"Welcome to Ghost App, {username}!";
         }
     }
 }
